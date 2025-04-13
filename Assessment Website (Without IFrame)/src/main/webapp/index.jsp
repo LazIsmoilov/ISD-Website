@@ -1,8 +1,8 @@
-<%@page import="uts.isd.model.User" %>
 <%@page contentType="text/html" pageEncoding="UTF-8" %>
 
 <%
 
+    //    User user = (User)session.getAttribute("loggedInUser");
     User user = (User)session.getAttribute("loggedInUser");
 
 %>
